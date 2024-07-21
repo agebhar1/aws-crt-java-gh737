@@ -1,0 +1,712 @@
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2edc0: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2edc0: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2edc0: pipe descriptors read 10, write 11.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2edc0: Starting event-loop thread.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: pipe descriptors read 13, write 14.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Starting event-loop thread.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [dns] - id=0x7f2605c06010: Initializing default host resolver with 8 max host entries.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [channel-bootstrap] - id=0x7f2604c2e5a0: Initializing client bootstrap with event-loop group 0x7f2604c2cd90
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: main loop started
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: subscribing to events on fd 13
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 100000 ms
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: main loop started
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: subscribing to events on fd 10
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 100000 ms
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [channel-bootstrap] - id=0x7f2604c2e5a0: acquiring bootstrap reference
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f75360: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f75360: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f75360: pipe descriptors read 17, write 18.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f75360: Starting event-loop thread.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f753b0: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f753b0: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f753b0: pipe descriptors read 20, write 21.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604f753b0: Starting event-loop thread.
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [standard-retry-strategy] - static: creating new standard retry strategy
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [standard-retry-strategy] - id=0x7f2604f76b70: creating backing exponential backoff strategy with max_retries of 5
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [exp-backoff-strategy] - id=0x7f2605164390: Initializing exponential backoff retry strategy with scale factor: 0 jitter mode: 0 and max retries 5
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [standard-retry-strategy] - id=0x7f2604f76b70: maximum bucket capacity set to 500
+[INFO] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: main loop started
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: subscribing to events on fd 20
+[INFO] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: waiting for a maximum of 100000 ms
+[INFO] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: main loop started
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: subscribing to events on fd 17
+[INFO] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: waiting for a maximum of 100000 ms
+07:03:34.446 [main] INFO  AlpineStackOverflowError - Creating AWS Resources
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [S3Client] - id=0x7f2604fe4300 Initiating making of meta request
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [S3MetaRequest] - id=0x7f2603b58370 Created new Default Meta Request. operation=CreateBucket
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [dns] - id=0x7f2605c06010: Host resolution requested for localstack
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [dns] - id=0x7f2605c06010: No cached entries found for localstack starting new resolver thread.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [channel-bootstrap] - id=0x7f2604c2e5a0: acquiring bootstrap reference
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [connection-manager] - id=0x7f26051f2300: Successfully created
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [S3Endpoint] - id=0x7f2603b57850: Created connection manager 0x7f26051f2300 for endpoint
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: scheduling task 0x7f2604fe4520 in-thread for timestamp 2471540673876
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe4520: Scheduling s3_client_buffer_pool_trim_task task for future execution at time 2471540673876
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: scheduling task 0x7f2604fe4560 in-thread for timestamp 2471540689748
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe4560: Scheduling s3_endpoints_cleanup_task task for future execution at time 2471540689748
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370: Meta Request Default created request 0x7f2603e0a3d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604f753b0: Scheduling task 0x7f2603b8cb80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604f753b0: Waking up event-loop thread
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):1/1  Requests-preparing:1  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4999925014, using timeout of 4999.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4999 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: task 0x7f2603b8cb80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2603b8cb80: Scheduling s3_meta_request_prepare_request_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2603b8cb80: Running s3_meta_request_prepare_request_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603eacb38] [S3MetaRequest] - id=0x7f2603b58370: Meta Request prepared request 0x7f2603e0a3d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [S3Client] - id=0x7f2604c5cb50: Instance type has not been cached. Returning without trying to determine instance type since cached_only is set.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [S3MetaRequest] - id=0x7f2603b58370 Created signable 0x7f2603b8c390 for request 0x7f2603e0a3d0 with message 0x7f2603b8c340
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603eacb38] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[INFO] [2024-07-21T07:03:34Z] [00007f262b161b38] [S3Client] - id=0x7f2604fe4300: Created meta request 0x7f2603b58370
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: resolving host localstack
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: resolved record: 172.22.0.3
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static, resolving host localstack successful, returned 1 addresses
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: new address resolved 172.22.0.3 for host localstack caching
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: remaining record count for host 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: remaining record count for host 1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: vending address 172.22.0.3 for host localstack to caller
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static, invoking resolution callback for host localstack with 1 addresses
+[INFO] [2024-07-21T07:03:34Z] [00007f2603eacb38] [AuthSigning] - (id=0x7f2603b8c390) Signing successfully built canonical request for algorithm SigV4, with contents 
+PUT
+/gh737
+
+amz-sdk-invocation-id:8d0a2dd7-118e-df74-a4ae-a3f41e534d03
+amz-sdk-request:attempt=1; max=1
+content-length:0
+host:localstack:4566
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240721T070334Z
+
+amz-sdk-invocation-id;amz-sdk-request;content-length;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+
+[INFO] [2024-07-21T07:03:34Z] [00007f2603eacb38] [AuthSigning] - (id=0x7f2603b8c390) Signing successfully built string-to-sign via algorithm SigV4, with contents 
+AWS4-HMAC-SHA256
+20240721T070334Z
+20240721/us-east-1/s3/aws4_request
+e2f4b0f9cf494f7d14d1c3096a3b1f46d4cbccbaf622b11797272bfe8f8281d8
+
+[INFO] [2024-07-21T07:03:34Z] [00007f2603eacb38] [AuthSigning] - (id=0x7f2603b8c390) Http request successfully built final authorization value via algorithm SigV4, with contents 
+AWS4-HMAC-SHA256 Credential=test/20240721/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;host;x-amz-content-sha256;x-amz-date, Signature=211a66d24f81be48738f64739e70c911075a4a6434f4b141a71da36093bc9ec7
+
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: waiting for a maximum of 100000 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: attempting to acquire retry token for partition_id localstack:4566
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: bucket for partition_id localstack:4566 does not exist, attempting to create one
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: bucket 0x7f2603b1dea0 for partition_id localstack:4566 created
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: allocated token 0x7f2603b1e300 for partition_id localstack:4566
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [exp-backoff-strategy] - id=0x7f2605164390: Initializing retry token 0x7f2603b0f5b0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2edc0: Scheduling task 0x7f2603b0f620 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2edc0: Waking up event-loop thread
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):1/1  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/1/1  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4990441489, using timeout of 4990.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4990 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 10, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: task 0x7f2603b0f620 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b0f620: Scheduling aws_exponential_backoff_retry_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b0f620: Running aws_exponential_backoff_retry_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [exp-backoff-strategy] - id=0x7f2605164390: Vending retry_token 0x7f2603b0f5b0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - id=0x7f2604f76b70: token acquired callback invoked with error Success. with token 0x7f2603b1e300 and nested token 0x7f2603b0f5b0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - id=0x7f2604f76b70: invoking on_retry_token_acquired callback
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Acquire connection
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: snapshot - state=1, idle_connection_count=0, pending_acquire_count=1, pending_settings_count=0, pending_connect_count=1, vended_connection_count=0, open_connection_count=0, ref_count=1
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Requesting 1 new connections from http
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - static: attempting to initialize a new client channel to localstack:4566
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: attempting to initialize a new client channel to localstack:4566
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: acquiring bootstrap reference
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [dns] - id=0x7f2605c06010: Host resolution requested for localstack
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [dns] - id=0x7f2605c06010: cached entries found for localstack returning to caller.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [dns] - id=0x7f2605c06010: vending address 172.22.0.3 for host localstack to caller
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: dns resolution completed. Kicking off connections on 1 addresses. First one back wins.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - acquiring client connection args, args=0x7f2603b0f6d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603b0f7f0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b0f7f0: Scheduling attempt_connection task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - id=0x7f2604f76b70: on_retry_token_acquired callback completed
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b0f7f0: Running attempt_connection task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: initializing with domain 0 and type 0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: setting socket options to: keep-alive 0, keep idle 0, keep-alive interval 0, keep-alive probe count 0.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: beginning connect.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: connecting to endpoint 172.22.0.3:4566.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: connection pending waiting on event-loop notification or timeout.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: subscribing to events on fd 22
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: scheduling timeout task for 2469550543490.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603b1e360 in-thread for timestamp 2469550543490
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b1e360: Scheduling (null) task for future execution at time 2469550543490
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 2999985668, using timeout of 2999.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 2999 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - fd=22: connection activity handler triggered 
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: has not timed out yet proceeding with connection.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: un-subscribing from events on fd 22
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603b1df30 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b1df30: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: connection success
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: assigning to event loop 0x7f2604c2edc0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: subscribing to events on fd 22
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: client connection on socket 0x7f2603b2d9a0 completed with error 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: Successful connection, creating a new channel using socket 0x7f2603b2d9a0.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: Beginning creation and setup of new channel.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603b8cb90 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b8cb90: Scheduling on_channel_setup_complete task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b1df30: Running epoll_event_loop_unsubscribe_cleanup task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b8cb90: Running on_channel_setup_complete task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: setup complete, notifying caller.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: no message pool is currently stored in the event-loop local storage, adding 0x7f2603b7c6f0 with max message size 262144, message count 4, with 4 small blocks of 128 bytes.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: channel 0x7f26051aafb0 setup succeeded: bootstrapping.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: creating new slot 0x7f2603b8c5c0.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: Socket handler created with max_read_size of 262144
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] -  id=0x7f2603b2d9a0 fd=22: subscribing to readable events
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: Setting up socket handler on channel 0x7f26051aafb0 with handler 0x7f2603e0aa20 on slot 0x7f2603b8c5c0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - static: Socket connected, creating client connection object.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: creating new slot 0x7f2603b8c250.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f26051ab088 in-thread for timestamp 2467550734349
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab088: Scheduling gather_statistics task for future execution at time 2467550734349
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: HTTP/1.1 client connection established.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Received new connection (id=0x7f26051ab630) from http layer
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Grabbing pooled connection (0x7f26051ab630)
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: snapshot - state=1, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=1, open_connection_count=1, ref_count=1
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Successfully completed connection acquisition with connection id=0x7f26051ab630
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Created client request on connection=0x7f26051ab630: PUT /gh737 HTTP/1.1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [S3MetaRequest] - id=0x7f2603b58370: Sending request 0x7f2603e0a3d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Scheduling connection cross-thread work task.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: scheduling task with wrapper task id 0x7f26051ab728.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f26051ab728 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab728: Scheduling http1_connection_cross_thread_work task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - releasing client connection args, args=0x7f2603b0f6d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: is writable
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: processing write requests, invoked by the event-loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab728: Running http1_connection_cross_thread_work task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Running connection cross-thread work task.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Current outgoing stream is now 0x7f26051ab950.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Current incoming stream is now 0x7f26051ab950.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Outgoing stream task has begun.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: acquired message 0x7f260367f280 of capacity 262144 from pool 0x7f2603b7c6f0. Requested size was 262144
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Starting to send data.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Done sending data.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Outgoing stream task is sending message of size 733.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: sending write message of size 733, from slot 0x7f2603b8c250 to slot 0x7f2603b8c5c0 with handler 0x7f2603e0aa20.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: writing message of size 733
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: processing write requests, called from aws_socket_write
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: dequeued write request of size 733, remaining to write 733
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: send written size 733
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: remaining write request to write 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: write request completed
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603e01ad0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603e01ad0: Scheduling socket_written_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603e01ad0: Running socket_written_task task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - static: write of size 733, completed on channel 0x7f26051aafb0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Message finished writing to network. Rescheduling outgoing stream task.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: scheduling task with wrapper task id 0x7f26051ab6c0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f26051ab6c0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab6c0: Scheduling http1_connection_outgoing_stream task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab6c0: Running http1_connection_outgoing_stream task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Current outgoing stream is now 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Outgoing stream task stopped. outgoing_stream=0 waiting_for_chunks:0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 999501834, using timeout of 999.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 999 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: is readable
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: socket on-readable with error code 0(AWS_ERROR_SUCCESS)
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: invoking read. Downstream window 18446744073709551615, max_to_read 262144
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: acquired message 0x7f260367f280 of capacity 262144 from pool 0x7f2603b7c6f0. Requested size was 262144
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: read of 765
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: read 765 from socket
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: sending read message of size 765, from slot 0x7f2603b8c5c0 to slot 0x7f2603b8c250 with handler 0x7f26051ab638.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Incoming message of size 765.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming response status: 200 (OK).
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Server: TwistedWeb/24.3.0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Date: Sun, 21 Jul 2024 07:03:34 GMT
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Access-Control-Allow-Origin: *
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Access-Control-Allow-Methods: HEAD,GET,PUT,POST,DELETE,OPTIONS,PATCH
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Access-Control-Allow-Headers: authorization,cache-control,content-length,content-md5,content-type,etag,location,x-amz-acl,x-amz-content-sha256,x-amz-date,x-amz-request-id,x-amz-security-token,x-amz-tagging,x-amz-target,x-amz-user-agent,x-amz-version-id,x-amzn-requestid,x-localstack-target,amz-sdk-invocation-id,amz-sdk-request
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Access-Control-Expose-Headers: etag,x-amz-version-id
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Vary: Origin
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Location: /gh737
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: x-amz-request-id: 8adb1aed-5d08-4cd1-9c38-ec072123234e
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: x-amz-id-2: s9lzHYrFp76ZVxRcpX9+5cjAnEH2ROuNkd2BHfIa6UkFVdtjf5mKR3/eTPFvsiP/XV/VLi31234=
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Incoming header: Content-Length: 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Main header block done.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Client request complete, response status: 200 (OK).
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [S3MetaRequest] - id=0x7f2603b58370: Request 0x7f2603e0a3d0 finished with error code 0 (aws-c-common: AWS_ERROR_SUCCESS, Success.) and response status 200
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Stream refcount released, 1 remaining.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - token_id=0x7f2603b1e300: partition=localstack:4566: recording successful operation and adding 1 units of capacity back to the bucket.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - bucket_id=0x7f2603b1e300: partition=localstack:4566 : new capacity is 500.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [standard-retry-strategy] - id=0x7f2603b1e300: releasing token
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4986011493, using timeout of 4986.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4986 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604f753b0: Scheduling task 0x7f2603b584f8 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604f753b0: Waking up event-loop thread
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: User releasing connection (id=0x7f26051ab630)
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: snapshot - state=1, idle_connection_count=1, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=1, ref_count=1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-stream] - id=0x7f26051ab950: Final stream refcount released.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Connection refcount released, 1 remaining.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Current incoming stream is now 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Decoded 765 bytes of message, 0 bytes remain.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: acquired message 0x7f260367f280 of capacity 261379 from pool 0x7f2603b7c6f0. Requested size was 261379
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: read of -1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: read would block
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: total read on this tick 765
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: out of data to read on socket. Waiting on event-loop notification.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: is writable
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: processing write requests, invoked by the event-loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 992912090, using timeout of 992.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 992 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):1/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:1  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4982768155, using timeout of 4982.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4982 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: task 0x7f2603b584f8 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2603b584f8: Scheduling s3_meta_request_event_delivery task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2603b584f8: Running s3_meta_request_event_delivery task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: waiting for a maximum of 100000 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370 Meta request finished with error code 0 (Success.)
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: scheduling task 0x7f2604fe44e0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370 Cleaning up meta request
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370 Calling virtual meta request destroy function.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370 Calling meta request shutdown callback.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3MetaRequest] - id=0x7f2603b58370 Meta request clean up finished.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4915770975, using timeout of 4915.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4915 ms
+[DEBUG] [2024-07-21T07:03:34Z] [00007f262b161b38] [S3Client] - id=0x7f2604fe4300 Client starting destruction.
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f262b161b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: cancelling task 0x7f2604fe4560
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe4560: Running s3_endpoints_cleanup_task task with <Canceled> status
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [connection-manager] - id=0x7f26051f2300: release
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [connection-manager] - id=0x7f26051f2300: ref count now zero, starting shut down process
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [connection-manager] - id=0x7f26051f2300: manager release, failing 0 pending acquisitions
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [connection-manager] - id=0x7f26051f2300: snapshot - state=2, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=1, ref_count=0
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [connection-manager] - id=0x7f26051f2300: Releasing connection (id=0x7f26051ab630)
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [http-connection] - id=0x7f26051ab630: Final connection refcount released, shut down if necessary.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel] - id=0x7f26051aafb0: channel shutdown task is scheduled
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel] - id=0x7f26051aafb0: scheduling task with wrapper task id 0x7f26051ab1b0 from outside the event-loop thread.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2edc0: Scheduling task 0x7f26051ab170 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2edc0: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: scheduling task 0x7f2604fe44e0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/1
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=1  process_work_task_in_progress=0  num_endpoints_allocated=1 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/1
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=1 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4910036695, using timeout of 4910.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4910 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 10, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: task 0x7f26051ab170 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab170: Scheduling schedule_cross_thread_tasks task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab170: Running schedule_cross_thread_tasks task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: beginning shutdown process
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: shutting down slot 0x7f2603b8c5c0 (the first one) in the read direction
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: shutting down slot 0x7f2603b8c5c0, with handler 0x7f2603e0aa20 in read direction with error code 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: shutting down read direction with error_code 0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: handler 0x7f2603e0aa20 shutdown in read dir completed.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Channel shutting down in read direction with error code 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: handler 0x7f26051ab638 shutdown in read dir completed.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f26051aafd8 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051aafd8: Scheduling (null) task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051aafd8: Running (null) task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Channel shutting down in write direction with error code 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: handler 0x7f26051ab638 shutdown in write dir completed.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket-handler] - id=0x7f2603e0aa20: shutting down write direction with error_code 0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [socket] - id=0x7f2603b2d9a0 fd=22: closing
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: un-subscribing from events on fd 22
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603b1dfa0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b1dfa0: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: scheduling task with wrapper task id 0x7f2603e0aac0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2603e0aac0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603e0aac0: Scheduling socket_handler_close task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603b1dfa0: Running epoll_event_loop_unsubscribe_cleanup task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2603e0aac0: Running socket_handler_close task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: handler 0x7f2603e0aa20 shutdown in write dir completed.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f26051aafd8 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051aafd8: Scheduling (null) task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 0 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051aafd8: Running (null) task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: channel 0x7f26051aafb0 shutdown with error 0.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - 0x7f26051ab630: Client shutdown completed with error 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: shutdown received for connection (id=0x7f26051ab630)
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: manager release, failing 0 pending acquisitions
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: snapshot - state=2, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=0, ref_count=0
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d88b38] [connection-manager] - id=0x7f26051f2300: Destroying self
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: releasing bootstrap reference
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel] - id=0x7f26051aafb0: destroying channel.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [http-connection] - id=0x7f26051ab630: Destroying connection.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: cancelling task 0x7f26051ab088
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f26051ab088: Running gather_statistics task with <Canceled> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - releasing client connection args, args=0x7f2603b0f6d0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - destroying client connection args, args=0x7f2603b0f6d0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [channel-bootstrap] - id=0x7f2604c2e5a0: releasing bootstrap reference
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 2919440072, using timeout of 2919.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: waiting for a maximum of 2919 ms
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=0 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: detected more scheduled tasks with the next occurring at 4909496597, using timeout of 4909.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 4909 ms
+[INFO] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f753b0: Destroying event_loop
+[INFO] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f753b0: Stopping event-loop thread.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f753b0: Scheduling task 0x7f2604f42368 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f753b0: Waking up event-loop thread
+07:03:34.717 [main] ERROR AlpineStackOverflowError - Got exception
+java.util.concurrent.ExecutionException: software.amazon.awssdk.core.exception.SdkClientException: Unable to execute HTTP request: null
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2028)
+	at AlpineStackOverflowError.createAwsResources(AlpineStackOverflowError.java:31)
+	at AlpineStackOverflowError.main(AlpineStackOverflowError.java:46)
+Caused by: software.amazon.awssdk.core.exception.SdkClientException: Unable to execute HTTP request: null
+	at software.amazon.awssdk.core.exception.SdkClientException$BuilderImpl.build(SdkClientException.java:111)
+	at software.amazon.awssdk.core.exception.SdkClientException.create(SdkClientException.java:47)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.utils.RetryableStageHelper2.setLastException(RetryableStageHelper2.java:226)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.utils.RetryableStageHelper2.setLastException(RetryableStageHelper2.java:221)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.AsyncRetryableStage2$RetryingExecutor.maybeRetryExecute(AsyncRetryableStage2.java:151)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.AsyncRetryableStage2$RetryingExecutor.lambda$attemptExecute$1(AsyncRetryableStage2.java:113)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2094)
+	at software.amazon.awssdk.utils.CompletableFutureUtils.lambda$forwardExceptionTo$0(CompletableFutureUtils.java:78)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2094)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.MakeAsyncHttpRequestStage.lambda$execute$0(MakeAsyncHttpRequestStage.java:108)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2094)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.MakeAsyncHttpRequestStage.completeResponseFuture(MakeAsyncHttpRequestStage.java:255)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.MakeAsyncHttpRequestStage.lambda$executeHttpRequest$3(MakeAsyncHttpRequestStage.java:167)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:930)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:907)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.StackOverflowError: null
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1022)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:800)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	at software.amazon.awssdk.core.internal.handler.BaseAsyncClientHandler.lambda$new$0(BaseAsyncClientHandler.java:66)
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler.lambda$prepare$0(AsyncResponseHandler.java:92)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2079)
+	at software.amazon.awssdk.core.internal.http.async.AsyncResponseHandler$BaosSubscriber.onComplete(AsyncResponseHandler.java:135)
+	at software.amazon.awssdk.core.internal.metrics.BytesReadTrackingPublisher$BytesReadTracker.onComplete(BytesReadTrackingPublisher.java:74)
+	at software.amazon.awssdk.utils.async.SimplePublisher.doProcessQueue(SimplePublisher.java:275)
+	at software.amazon.awssdk.utils.async.SimplePublisher.processEventQueue(SimplePublisher.java:224)
+	at software.amazon.awssdk.utils.async.SimplePublisher.complete(SimplePublisher.java:157)
+	at software.amazon.awssdk.services.s3.internal.crt.S3CrtResponseHandlerAdapter.onSuccessfulResponseComplete(S3CrtResponseHandlerAdapter.java:140)
+	at software.amazon.awssdk.services.s3.internal.crt.S3CrtResponseHandlerAdapter.onFinished(S3CrtResponseHandlerAdapter.java:135)
+	at software.amazon.awssdk.crt.s3.S3MetaRequestResponseHandlerNativeAdapter.onFinished(S3MetaRequestResponseHandlerNativeAdapter.java:25)
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: task 0x7f2604f42368 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2604f42368: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2604f42368: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: no more scheduled tasks using default timeout.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: exiting main loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: un-subscribing from events on fd 20
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [event-loop] - id=0x7f2604f753b0: scheduling task 0x7f2604fc8dc0 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603eacb38] [task-scheduler] - id=0x7f2604fc8dc0: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603eacb38] [aws-c-common] - s_detach_jvm_from_thread invoked
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [task-scheduler] - id=0x7f2604fc8dc0: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[INFO] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f75360: Destroying event_loop
+[INFO] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f75360: Stopping event-loop thread.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f75360: Scheduling task 0x7f2604f42188 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604f75360: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: activity on fd 17, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: task 0x7f2604f42188 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [task-scheduler] - id=0x7f2604f42188: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [task-scheduler] - id=0x7f2604f42188: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: no more scheduled tasks using default timeout.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: exiting main loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: un-subscribing from events on fd 17
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [event-loop] - id=0x7f2604f75360: scheduling task 0x7f2604fc9b70 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604a36b38] [task-scheduler] - id=0x7f2604fc9b70: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [task-scheduler] - id=0x7f2604fc9b70: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603980b38] [S3Client] - id=0x7f2604fe4300 Client body streaming ELG shutdown.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604fe44e0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2603980b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604fe44e0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe44e0: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating meta requests.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3ClientStats] - id=0x7f2604fe4300 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/0
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=0  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=0 s3express_provider_active=0 finish_destroy=1
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - id=0x7f2604fe4300 Client finishing destruction.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: cancelling task 0x7f2604fe4520
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604fe4520: Running s3_client_buffer_pool_trim_task task with <Canceled> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: destroying self
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [standard-retry-strategy] - id=0x7f2604f76b70: destroying bucket partition localstack:4566
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel-bootstrap] - id=0x7f2604c2e5a0: releasing bootstrap reference
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [AuthCredentialsProvider] - Credentials providers shutdown complete
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [AuthCredentialsProvider] - CrtCredentialsProvider.onShutdownComplete
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [S3Client] - S3 Client Shutdown Complete
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel-bootstrap] - id=0x7f2604c2e5a0: releasing bootstrap reference
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel-bootstrap] - id=0x7f2604c2e5a0: bootstrap destroying
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [channel-bootstrap] - ClientBootstrap.onShutdownComplete
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: waiting for a maximum of 100000 ms
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: Either no requests have been made for an address for localstack for the duration of the ttl, or this thread is being forcibly shutdown. Killing thread.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2603768b38] [dns] - static: purging address 172.22.0.3 for host localstack from the cache due to cache eviction or shutdown
+[INFO] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2ee10: Destroying event_loop
+[INFO] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2ee10: Stopping event-loop thread.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2ee10: Scheduling task 0x7f2604c418b8 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2ee10: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: task 0x7f2604c418b8 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604c418b8: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604c418b8: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: no more scheduled tasks using default timeout.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: exiting main loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: un-subscribing from events on fd 13
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [event-loop] - id=0x7f2604c2ee10: scheduling task 0x7f2604d0d160 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [task-scheduler] - id=0x7f2604d0d160: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d4eb38] [aws-c-common] - s_detach_jvm_from_thread invoked
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [task-scheduler] - id=0x7f2604d0d160: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[INFO] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2edc0: Destroying event_loop
+[INFO] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2edc0: Stopping event-loop thread.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2edc0: Scheduling task 0x7f2604c416c8 cross-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - id=0x7f2604c2edc0: Waking up event-loop thread
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: wake up with 1 events to process.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: activity on fd 10, invoking handler.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: processing cross-thread tasks
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: task 0x7f2604c416c8 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2604c416c8: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: running scheduled tasks.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2604c416c8: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: detected more scheduled tasks with the next occurring at 2901372874, using timeout of 2901.
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: exiting main loop
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: un-subscribing from events on fd 10
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [event-loop] - id=0x7f2604c2edc0: scheduling task 0x7f2604cb0800 in-thread for timestamp 0
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604d88b38] [task-scheduler] - id=0x7f2604cb0800: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604d88b38] [aws-c-common] - s_detach_jvm_from_thread invoked
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [task-scheduler] - id=0x7f2604cb0800: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [task-scheduler] - id=0x7f2603b1e360: Running (null) task with <Canceled> status
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [socket] - task_id=0x7f2603b1e360: timeout task triggered, evaluating timeouts.
+[TRACE] [2024-07-21T07:03:34Z] [00007f2604c20b38] [channel] - static: message pool 0x7f2603b7c6f0 has been purged from the event-loop: likely because of shutdown
+[DEBUG] [2024-07-21T07:03:34Z] [00007f2604c20b38] [event-loop] - Event Loop Shutdown Complete
+[WARN] [2024-07-21T07:03:36Z] [00007f262c526b08] [JavaCrtGeneral] - Not all native threads were successfully joined during gentle shutdown.  Memory may be leaked.
+[DEBUG] [2024-07-21T07:03:36Z] [00007f262c526b08] [JavaCrtGeneral] - At shutdown, 184 bytes remaining

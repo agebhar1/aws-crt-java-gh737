@@ -1,0 +1,23 @@
+services:
+  localstack:
+    image: localstack/localstack:s3-latest
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      DEBUG: ${DEBUG:-0}
+
+  alpine:
+    image: eclipse-temurin:11-alpine
+    command:
+      - sleep
+      - infinity
+    volumes:
+      - ./target:/mnt
+
+  jammy:
+    image: eclipse-temurin:11-jammy
+    command:
+      - sleep
+      - infinity
+    volumes:
+      - ./target:/mnt

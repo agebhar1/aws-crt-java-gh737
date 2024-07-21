@@ -1,0 +1,2116 @@
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc705d30: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc705d30: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc705d30: pipe descriptors read 10, write 11.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc705d30: Starting event-loop thread.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: pipe descriptors read 13, write 14.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Starting event-loop thread.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [dns] - id=0x7fe0cc706fb0: Initializing default host resolver with 8 max host entries.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [channel-bootstrap] - id=0x7fe0cc7072f0: Initializing client bootstrap with event-loop group 0x7fe0cc705c10
+[INFO] [2024-07-21T06:59:37Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: main loop started
+[TRACE] [2024-07-21T06:59:37Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: subscribing to events on fd 13
+[INFO] [2024-07-21T06:59:37Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T06:59:37Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 100000 ms
+[INFO] [2024-07-21T06:59:37Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: main loop started
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: subscribing to events on fd 10
+[INFO] [2024-07-21T06:59:37Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 100000 ms
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [channel-bootstrap] - id=0x7fe0cc7072f0: acquiring bootstrap reference
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc5862a0: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc5862a0: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc5862a0: pipe descriptors read 17, write 18.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc5862a0: Starting event-loop thread.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc924850: Initializing edge-triggered epoll
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc924850: Eventfd not available, falling back to pipe for cross-thread notification.
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc924850: pipe descriptors read 20, write 21.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc924850: Starting event-loop thread.
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [standard-retry-strategy] - static: creating new standard retry strategy
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [standard-retry-strategy] - id=0x7fe0cc9253d0: creating backing exponential backoff strategy with max_retries of 5
+[INFO] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [exp-backoff-strategy] - id=0x7fe0cc9254b0: Initializing exponential backoff retry strategy with scale factor: 0 jitter mode: 0 and max retries 5
+[DEBUG] [2024-07-21T06:59:37Z] [00007fe0d29d6640] [standard-retry-strategy] - id=0x7fe0cc9253d0: maximum bucket capacity set to 500
+[INFO] [2024-07-21T06:59:37Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: main loop started
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: subscribing to events on fd 17
+[INFO] [2024-07-21T06:59:37Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T06:59:37Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: waiting for a maximum of 100000 ms
+[INFO] [2024-07-21T06:59:37Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: main loop started
+[TRACE] [2024-07-21T06:59:37Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: subscribing to events on fd 20
+[INFO] [2024-07-21T06:59:37Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: default timeout 100000, and max events to process per tick 100
+[TRACE] [2024-07-21T06:59:37Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: waiting for a maximum of 100000 ms
+06:59:38.035 [main] INFO  AlpineStackOverflowError - Creating AWS Resources
+[INFO] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [S3Client] - id=0x7fe0cc5859a0 Initiating making of meta request
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Created new Default Meta Request. operation=CreateBucket
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [dns] - id=0x7fe0cc706fb0: Host resolution requested for localstack
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [dns] - id=0x7fe0cc706fb0: No cached entries found for localstack starting new resolver thread.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [channel-bootstrap] - id=0x7fe0cc7072f0: acquiring bootstrap reference
+[INFO] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [connection-manager] - id=0x7fe0ccabf4f0: Successfully created
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [S3Endpoint] - id=0x7fe0ccab2450: Created connection manager 0x7fe0ccabf4f0 for endpoint
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: scheduling task 0x7fe0cc585bc0 in-thread for timestamp 2235131668956
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585bc0: Scheduling s3_client_buffer_pool_trim_task task for future execution at time 2235131668956
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: scheduling task 0x7fe0cc585c00 in-thread for timestamp 2235132147866
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585c00: Scheduling s3_endpoints_cleanup_task task for future execution at time 2235132147866
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0: Meta Request Default created request 0x7fe0783ea770
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc924850: Scheduling task 0x7fe0783ea9a0 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc924850: Waking up event-loop thread
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):1/1  Requests-preparing:1  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4997299588, using timeout of 4997.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4997 ms
+[INFO] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [S3Client] - id=0x7fe0cc5859a0: Created meta request 0x7fe0ccab1ac0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: task 0x7fe0783ea9a0 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0783ea9a0: Scheduling s3_meta_request_prepare_request_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0783ea9a0: Running s3_meta_request_prepare_request_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe084dfc640] [S3MetaRequest] - id=0x7fe0ccab1ac0: Meta Request prepared request 0x7fe0783ea770
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [S3Client] - id=0x7fe0cc558f30: Instance type has not been cached. Returning without trying to determine instance type since cached_only is set.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Created signable 0x7fe0800023a0 for request 0x7fe0783ea770 with message 0x7fe0800014b0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe084dfc640] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe084dfc640] [aws-c-common] - Failed to retrieve name for the thread.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: resolving host localstack
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: resolved record: 172.22.0.3
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static, resolving host localstack successful, returned 1 addresses
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: new address resolved 172.22.0.3 for host localstack caching
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: remaining record count for host 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: remaining record count for host 1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static: vending address 172.22.0.3 for host localstack to caller
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06bfff640] [dns] - static, invoking resolution callback for host localstack with 1 addresses
+[INFO] [2024-07-21T06:59:38Z] [00007fe084dfc640] [AuthSigning] - (id=0x7fe0800023a0) Signing successfully built canonical request for algorithm SigV4, with contents 
+PUT
+/gh737
+
+amz-sdk-invocation-id:d41c3b4c-0499-9911-35be-14c8ed559d83
+amz-sdk-request:attempt=1; max=1
+content-length:0
+host:localstack:4566
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20240721T065938Z
+
+amz-sdk-invocation-id;amz-sdk-request;content-length;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+
+[INFO] [2024-07-21T06:59:38Z] [00007fe084dfc640] [AuthSigning] - (id=0x7fe0800023a0) Signing successfully built string-to-sign via algorithm SigV4, with contents 
+AWS4-HMAC-SHA256
+20240721T065938Z
+20240721/us-east-1/s3/aws4_request
+2281f6e348d72812e8d4810e4175a75a945281bcca26ade86e056dfd503cf2c0
+
+[INFO] [2024-07-21T06:59:38Z] [00007fe084dfc640] [AuthSigning] - (id=0x7fe0800023a0) Http request successfully built final authorization value via algorithm SigV4, with contents 
+AWS4-HMAC-SHA256 Credential=test/20240721/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;host;x-amz-content-sha256;x-amz-date, Signature=481d7032393ac8ba85352ba2ded141cf2cda94b2a300d19a7dd3a833e0be4e20
+
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: waiting for a maximum of 100000 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: attempting to acquire retry token for partition_id localstack:4566
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: bucket for partition_id localstack:4566 does not exist, attempting to create one
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: bucket 0x7fe0783eb790 for partition_id localstack:4566 created
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: allocated token 0x7fe0783eb6c0 for partition_id localstack:4566
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [exp-backoff-strategy] - id=0x7fe0cc9254b0: Initializing retry token 0x7fe0783eb910
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: scheduling task 0x7fe0783eb980 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0783eb980: Scheduling aws_exponential_backoff_retry_task task for immediate execution
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):1/1  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/1/1  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0783eb980: Running aws_exponential_backoff_retry_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [exp-backoff-strategy] - id=0x7fe0cc9254b0: Vending retry_token 0x7fe0783eb910
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: token acquired callback invoked with error Success. with token 0x7fe0783eb6c0 and nested token 0x7fe0783eb910
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: invoking on_retry_token_acquired callback
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: Acquire connection
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: snapshot - state=1, idle_connection_count=0, pending_acquire_count=1, pending_settings_count=0, pending_connect_count=1, vended_connection_count=0, open_connection_count=0, ref_count=1
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: Requesting 1 new connections from http
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [http-connection] - static: attempting to initialize a new client channel to localstack:4566
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel-bootstrap] - id=0x7fe0cc7072f0: attempting to initialize a new client channel to localstack:4566
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel-bootstrap] - id=0x7fe0cc7072f0: acquiring bootstrap reference
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [dns] - id=0x7fe0cc706fb0: Host resolution requested for localstack
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [dns] - id=0x7fe0cc706fb0: cached entries found for localstack returning to caller.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [dns] - id=0x7fe0cc706fb0: vending address 172.22.0.3 for host localstack to caller
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel-bootstrap] - id=0x7fe0cc7072f0: dns resolution completed. Kicking off connections on 1 addresses. First one back wins.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel-bootstrap] - acquiring client connection args, args=0x7fe0783ebde0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc705d30: Scheduling task 0x7fe0783ec130 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc705d30: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: on_retry_token_acquired callback completed
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4976719073, using timeout of 4976.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4976 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: activity on fd 10, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: task 0x7fe0783ec130 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe0783ec130: Scheduling attempt_connection task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe0783ec130: Running attempt_connection task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: initializing with domain 0 and type 0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: setting socket options to: keep-alive 0, keep idle 0, keep-alive interval 0, keep-alive probe count 0.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: beginning connect.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: connecting to endpoint 172.22.0.3:4566.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: connection pending waiting on event-loop notification or timeout.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: subscribing to events on fd 22
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: scheduling timeout task for 2233159423551.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416c870 in-thread for timestamp 2233159423551
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416c870: Scheduling (null) task for future execution at time 2233159423551
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 2999453435, using timeout of 2999.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 2999 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - fd=22: connection activity handler triggered 
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: has not timed out yet proceeding with connection.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: un-subscribing from events on fd 22
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416c960 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416c960: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[INFO] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: connection success
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: assigning to event loop 0x7fe0cc705d30
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: subscribing to events on fd 22
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: client connection on socket 0x7fe07423a6a0 completed with error 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: Successful connection, creating a new channel using socket 0x7fe07423a6a0.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: Beginning creation and setup of new channel.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416d910 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d910: Scheduling on_channel_setup_complete task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416c960: Running epoll_event_loop_unsubscribe_cleanup task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d910: Running on_channel_setup_complete task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: setup complete, notifying caller.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: no message pool is currently stored in the event-loop local storage, adding 0x7fe07416da60 with max message size 262144, message count 4, with 4 small blocks of 128 bytes.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: channel 0x7fe07416d4a0 setup succeeded: bootstrapping.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: creating new slot 0x7fe07416e1b0.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: Socket handler created with max_read_size of 262144
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] -  id=0x7fe07423a6a0 fd=22: subscribing to readable events
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: Setting up socket handler on channel 0x7fe07416d4a0 with handler 0x7fe07416e270 on slot 0x7fe07416e1b0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - static: Socket connected, creating client connection object.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: creating new slot 0x7fe07416e410.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416d578 in-thread for timestamp 2231164109535
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d578: Scheduling gather_statistics task for future execution at time 2231164109535
+[INFO] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: HTTP/1.1 client connection established.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: Received new connection (id=0x7fe07429b460) from http layer
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: Grabbing pooled connection (0x7fe07429b460)
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: snapshot - state=1, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=1, open_connection_count=1, ref_count=1
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: Successfully completed connection acquisition with connection id=0x7fe07429b460
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Created client request on connection=0x7fe07429b460: PUT /gh737 HTTP/1.1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [S3MetaRequest] - id=0x7fe0ccab1ac0: Sending request 0x7fe0783ea770
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Scheduling connection cross-thread work task.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: scheduling task with wrapper task id 0x7fe07429b558.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07429b558 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07429b558: Scheduling http1_connection_cross_thread_work task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - releasing client connection args, args=0x7fe0783ebde0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: is writable
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: processing write requests, invoked by the event-loop
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07429b558: Running http1_connection_cross_thread_work task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Running connection cross-thread work task.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Current outgoing stream is now 0x7fe07429bc00.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Current incoming stream is now 0x7fe07429bc00.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Outgoing stream task has begun.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: acquired message 0x7fe0743274d0 of capacity 262144 from pool 0x7fe07416da60. Requested size was 262144
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Starting to send data.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Done sending data.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Outgoing stream task is sending message of size 733.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: sending write message of size 733, from slot 0x7fe07416e410 to slot 0x7fe07416e1b0 with handler 0x7fe07416e270.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: writing message of size 733
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: processing write requests, called from aws_socket_write
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: dequeued write request of size 733, remaining to write 733
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: send written size 733
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: remaining write request to write 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: write request completed
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416c780 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416c780: Scheduling socket_written_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: activity on fd 22, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: is readable
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: socket on-readable with error code 0(AWS_ERROR_SUCCESS)
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: invoking read. Downstream window 18446744073709551615, max_to_read 262144
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: acquired message 0x7fe0742e7430 of capacity 262144 from pool 0x7fe07416da60. Requested size was 262144
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: read of 765
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: read 765 from socket
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: sending read message of size 765, from slot 0x7fe07416e1b0 to slot 0x7fe07416e410 with handler 0x7fe07429b468.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Incoming message of size 765.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming response status: 200 (OK).
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Server: TwistedWeb/24.3.0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Date: Sun, 21 Jul 2024 06:59:38 GMT
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Access-Control-Allow-Origin: *
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Access-Control-Allow-Methods: HEAD,GET,PUT,POST,DELETE,OPTIONS,PATCH
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Access-Control-Allow-Headers: authorization,cache-control,content-length,content-md5,content-type,etag,location,x-amz-acl,x-amz-content-sha256,x-amz-date,x-amz-request-id,x-amz-security-token,x-amz-tagging,x-amz-target,x-amz-user-agent,x-amz-version-id,x-amzn-requestid,x-localstack-target,amz-sdk-invocation-id,amz-sdk-request
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Access-Control-Expose-Headers: etag,x-amz-version-id
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Vary: Origin
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Location: /gh737
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: x-amz-request-id: 6e230236-3d12-4e61-88dd-376bb62ad6ba
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: x-amz-id-2: s9lzHYrFp76ZVxRcpX9+5cjAnEH2ROuNkd2BHfIa6UkFVdtjf5mKR3/eTPFvsiP/XV/VLi31234=
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Incoming header: Content-Length: 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Main header block done.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Decoded 765 bytes of message, 0 bytes remain.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: acquired message 0x7fe0742e7430 of capacity 261379 from pool 0x7fe07416da60. Requested size was 261379
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: read of -1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: read would block
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: total read on this tick 765
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: out of data to read on socket. Waiting on event-loop notification.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: is writable
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: processing write requests, invoked by the event-loop
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416c780: Running socket_written_task task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - static: write of size 733, completed on channel 0x7fe07416d4a0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Message finished writing to network. Rescheduling outgoing stream task.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: scheduling task with wrapper task id 0x7fe07429b4f0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07429b4f0 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07429b4f0: Scheduling http1_connection_outgoing_stream task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07429b4f0: Running http1_connection_outgoing_stream task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Client request complete, response status: 200 (OK).
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [S3MetaRequest] - id=0x7fe0ccab1ac0: Request 0x7fe0783ea770 finished with error code 0 (aws-c-common: AWS_ERROR_SUCCESS, Success.) and response status 200
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Stream refcount released, 1 remaining.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [standard-retry-strategy] - token_id=0x7fe0783eb6c0: partition=localstack:4566: recording successful operation and adding 1 units of capacity back to the bucket.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [standard-retry-strategy] - bucket_id=0x7fe0783eb6c0: partition=localstack:4566 : new capacity is 500.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [standard-retry-strategy] - id=0x7fe0783eb6c0: releasing token
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [aws-c-common] - Failed to retrieve name for the thread.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4949710372, using timeout of 4949.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4949 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc924850: Scheduling task 0x7fe0ccab1c48 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc924850: Waking up event-loop thread
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: User releasing connection (id=0x7fe07429b460)
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: task 0x7fe0ccab1c48 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0ccab1c48: Scheduling s3_meta_request_event_delivery task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0ccab1c48: Running s3_meta_request_event_delivery task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: waiting for a maximum of 100000 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Meta request finished with error code 0 (Success.)
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [aws-c-common] - s_aws_jni_get_thread_env returned detached, attaching
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [aws-c-common] - Failed to retrieve name for the thread.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: snapshot - state=1, idle_connection_count=1, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=1, ref_count=1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-stream] - id=0x7fe07429bc00: Final stream refcount released.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Connection refcount released, 1 remaining.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Current outgoing stream is now (nil).
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Current incoming stream is now (nil).
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Outgoing stream task stopped. outgoing_stream=(nil) waiting_for_chunks:0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 975983922, using timeout of 975.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 975 ms
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Cleaning up meta request
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Calling virtual meta request destroy function.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Calling meta request shutdown callback.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3MetaRequest] - id=0x7fe0ccab1ac0 Meta request clean up finished.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4928626440, using timeout of 4928.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4928 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):1/1
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4925364554, using timeout of 4925.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4925 ms
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [S3Client] - id=0x7fe0cc5859a0 Client starting destruction.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0d29d6640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: cancelling task 0x7fe0cc585c00
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585c00: Running s3_endpoints_cleanup_task task with <Canceled> status
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: release
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: ref count now zero, starting shut down process
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: manager release, failing 0 pending acquisitions
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: snapshot - state=2, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=1, ref_count=0
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [connection-manager] - id=0x7fe0ccabf4f0: Releasing connection (id=0x7fe07429b460)
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [http-connection] - id=0x7fe07429b460: Final connection refcount released, shut down if necessary.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel] - id=0x7fe07416d4a0: channel shutdown task is scheduled
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel] - id=0x7fe07416d4a0: scheduling task with wrapper task id 0x7fe07416d6a0 from outside the event-loop thread.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc705d30: Scheduling task 0x7fe07416d660 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc705d30: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: scheduling task 0x7fe0cc585b80 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/1
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=1  process_work_task_in_progress=0  num_endpoints_allocated=1 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/1
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=1 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4912627217, using timeout of 4912.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4912 ms
+[INFO] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc924850: Destroying event_loop
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: activity on fd 10, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: task 0x7fe07416d660 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d660: Scheduling schedule_cross_thread_tasks task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d660: Running schedule_cross_thread_tasks task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: beginning shutdown process
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: shutting down slot 0x7fe07416e1b0 (the first one) in the read direction
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: shutting down slot 0x7fe07416e1b0, with handler 0x7fe07416e270 in read direction with error code 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: shutting down read direction with error_code 0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: handler 0x7fe07416e270 shutdown in read dir completed.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Channel shutting down in read direction with error code 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: handler 0x7fe07429b468 shutdown in read dir completed.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416d4c8 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d4c8: Scheduling (null) task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d4c8: Running (null) task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Channel shutting down in write direction with error code 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: handler 0x7fe07429b468 shutdown in write dir completed.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket-handler] - id=0x7fe07416e270: shutting down write direction with error_code 0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [socket] - id=0x7fe07423a6a0 fd=22: closing
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: un-subscribing from events on fd 22
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416cab0 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416cab0: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: scheduling task with wrapper task id 0x7fe07416e310.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416e310 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416e310: Scheduling socket_handler_close task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416cab0: Running epoll_event_loop_unsubscribe_cleanup task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416e310: Running socket_handler_close task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: handler 0x7fe07416e270 shutdown in write dir completed.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: scheduling task 0x7fe07416d4c8 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d4c8: Scheduling (null) task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 0, using timeout of 0.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 0 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: wake up with 0 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d4c8: Running (null) task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: channel 0x7fe07416d4a0 shutdown with error 0.
+[INFO] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - 0x7fe07429b460: Client shutdown completed with error 0 (AWS_ERROR_SUCCESS).
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: shutdown received for connection (id=0x7fe07429b460)
+[INFO] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: manager release, failing 0 pending acquisitions
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: snapshot - state=2, idle_connection_count=0, pending_acquire_count=0, pending_settings_count=0, pending_connect_count=0, vended_connection_count=0, open_connection_count=0, ref_count=0
+[INFO] [2024-07-21T06:59:38Z] [00007fe0867ff640] [connection-manager] - id=0x7fe0ccabf4f0: Destroying self
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: releasing bootstrap reference
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel] - id=0x7fe07416d4a0: destroying channel.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [http-connection] - id=0x7fe07429b460: Destroying connection.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: cancelling task 0x7fe07416d578
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [task-scheduler] - id=0x7fe07416d578: Running gather_statistics task with <Canceled> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - releasing client connection args, args=0x7fe0783ebde0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - destroying client connection args, args=0x7fe0783ebde0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0867ff640] [channel-bootstrap] - id=0x7fe0cc7072f0: releasing bootstrap reference
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: detected more scheduled tasks with the next occurring at 2939571885, using timeout of 2939.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0867ff640] [event-loop] - id=0x7fe0cc705d30: waiting for a maximum of 2939 ms
+[INFO] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc924850: Stopping event-loop thread.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc924850: Scheduling task 0x7fe0cc924d98 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc924850: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: activity on fd 20, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: task 0x7fe0cc924d98 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0cc924d98: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe0cc924d98: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: no more scheduled tasks using default timeout.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: exiting main loop
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: un-subscribing from events on fd 20
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [event-loop] - id=0x7fe0cc924850: scheduling task 0x7fe080001220 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe084dfc640] [task-scheduler] - id=0x7fe080001220: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe084dfc640] [aws-c-common] - s_detach_jvm_from_thread invoked
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [task-scheduler] - id=0x7fe080001220: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[INFO] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc5862a0: Destroying event_loop
+[INFO] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc5862a0: Stopping event-loop thread.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc5862a0: Scheduling task 0x7fe0cc924498 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc5862a0: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: activity on fd 17, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: task 0x7fe0cc924498 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [task-scheduler] - id=0x7fe0cc924498: Scheduling epoll_event_loop_stop task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [task-scheduler] - id=0x7fe0cc924498: Running epoll_event_loop_stop task with <Running> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: no more scheduled tasks using default timeout.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: exiting main loop
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: un-subscribing from events on fd 17
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [event-loop] - id=0x7fe0cc5862a0: scheduling task 0x7fe07c001220 in-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe0855fd640] [task-scheduler] - id=0x7fe07c001220: Scheduling epoll_event_loop_unsubscribe_cleanup task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=1  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=0 s3express_provider_active=0 finish_destroy=0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: detected more scheduled tasks with the next occurring at 4904970844, using timeout of 4904.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 4904 ms
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [task-scheduler] - id=0x7fe07c001220: Running epoll_event_loop_unsubscribe_cleanup task with <Canceled> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [S3Client] - id=0x7fe0cc5859a0 Client body streaming ELG shutdown.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc706760: Scheduling task 0x7fe0cc585b80 cross-thread for timestamp 0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe06b7fe640] [event-loop] - id=0x7fe0cc706760: Waking up event-loop thread
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: wake up with 1 events to process.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: activity on fd 13, invoking handler.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: notified of cross-thread tasks to schedule
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: processing cross-thread tasks
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: task 0x7fe0cc585b80 pulled to event-loop, scheduling now.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Scheduling s3_client_process_work_task task for immediate execution
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: running scheduled tasks.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585b80: Running s3_client_process_work_task task with <Running> status
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Moving relevant synced_data into threaded_data.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 s_s3_client_process_work_default - Processing any new meta requests.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating meta requests.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - Releasing buffer reservation hold.
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Updating connections, assigning requests where possible.
+[INFO] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3ClientStats] - id=0x7fe0cc5859a0 Requests-in-flight(approx/exact):0/0  Requests-preparing:0  Requests-queued:0  Requests-network(get/put/default/total):0/0/0/0  Requests-streaming-waiting:0  Requests-streaming-response:0  Endpoints(in-table/allocated):0/0
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Client shutdown progress: starting_destroy_executing=0  body_streaming_elg_allocated=0  process_work_task_scheduled=0  process_work_task_in_progress=0  num_endpoints_allocated=0 s3express_provider_active=0 finish_destroy=1
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [S3Client] - id=0x7fe0cc5859a0 Client finishing destruction.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: cancelling task 0x7fe0cc585bc0
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [task-scheduler] - id=0x7fe0cc585bc0: Running s3_client_buffer_pool_trim_task task with <Canceled> status
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: destroying self
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [standard-retry-strategy] - id=0x7fe0cc9253d0: destroying bucket partition localstack:4566
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [channel-bootstrap] - id=0x7fe0cc7072f0: releasing bootstrap reference
+[DEBUG] [2024-07-21T06:59:38Z] [00007fe085ffe640] [AuthCredentialsProvider] - Credentials providers shutdown complete
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: no more scheduled tasks using default timeout.
+[TRACE] [2024-07-21T06:59:38Z] [00007fe085ffe640] [event-loop] - id=0x7fe0cc706760: waiting for a maximum of 100000 ms
+[DEBUG] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static: resolving host localstack
+[DEBUG] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static: resolved record: 172.22.0.3
+[DEBUG] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static, resolving host localstack successful, returned 1 addresses
+[TRACE] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static: updating expiry for 172.22.0.3 for host localstack to 2531150057372
+[TRACE] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static: remaining record count for host 0
+[TRACE] [2024-07-21T06:59:39Z] [00007fe06bfff640] [dns] - static: remaining record count for host 1
+[WARN] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [JavaCrtGeneral] - Not all native threads were successfully joined during gentle shutdown.  Memory may be leaked.
+[DEBUG] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [JavaCrtGeneral] - At shutdown, 1106703 bytes remaining
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ################################################################################
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - #  BEGIN MEMTRACE DUMP                                                         #
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ################################################################################
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - tracer: 1106703 bytes still allocated in 64 allocations
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - Leaks in order of allocation:
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 16 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x34) [0x7fe086a8b144]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 88 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14743f) [0x7fe086b4743f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 16 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1477a2) [0x7fe086b477a2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 72 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x26) [0x7fe086b55546]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 848 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_init_base+0xa5) [0x7fe086b46d15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x64) [0x7fe086b55584]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 424 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x7e) [0x7fe086b5559e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 56 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_init_dynamic+0xc7) [0x7fe086ce0b67]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_init+0x7c) [0x7fe086ce258c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x1d2) [0x7fe086b556f2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15447d) [0x7fe086b5447d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1476a6) [0x7fe086b476a6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 72 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x26) [0x7fe086b55546]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 848 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_init_base+0xa5) [0x7fe086b46d15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x64) [0x7fe086b55584]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 424 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x7e) [0x7fe086b5559e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 56 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_init_dynamic+0xc7) [0x7fe086ce0b67]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_init+0x7c) [0x7fe086ce258c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x1d2) [0x7fe086b556f2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15447d) [0x7fe086b5447d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1476a6) [0x7fe086b476a6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 160 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x4b) [0x7fe086b4ca4b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 272 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x189) [0x7fe086b4cb89]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 16 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0x4f) [0x7fe086a872df]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_client_bootstrap_new+0x24) [0x7fe086b45db4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0xb7) [0x7fe086a87347]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 64 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15d30c) [0x7fe086b5d30c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_TlsContext_tlsContextNew+0x27) [0x7fe086aa8dc7]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154598) [0x7fe086b54598]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d2b) [0x7fe086b54d2b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 24 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d4f) [0x7fe086b54d4f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154598) [0x7fe086b54598]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d2b) [0x7fe086b54d2b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 24 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d4f) [0x7fe086b54d4f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 32 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_auth_credentials_DelegateCredentialsProvider_delegateCredentialsProviderNew+0x39) [0x7fe086a88979]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 80 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x151) [0x7fe086aa6761]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 26 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x91) [0x7fe086a86191]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 19 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0xcc) [0x7fe086a861cc]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 33 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x1ec) [0x7fe086a862ec]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 376 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a63d) [0x7fe086b4a63d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 27 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a690) [0x7fe086b4a690]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 112 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 12368 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 112 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 12368 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 112 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 12368 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 112 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 12368 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 256 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa1f) [0x7fe086b4aa1f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 256 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa7a) [0x7fe086b4aa7a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 104 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a9e6) [0x7fe086b4a9e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 16 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe0759) [0x7fe086ae0759]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 256 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc43) [0x7fe086b4bc43]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 256 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc86) [0x7fe086b4bc86]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 256 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bcc5) [0x7fe086b4bcc5]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 27 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x145) [0x7fe086b55a15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 27 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x164) [0x7fe086b55a34]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 72 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c38c) [0x7fe086b4c38c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 40 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_linked_hash_table_put+0x2a) [0x7fe086cde19a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dee5c) [0x7fe086cdee5c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c3c9) [0x7fe086b4c3c9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 80 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_socket_connect+0x21e) [0x7fe086b574ee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x145705) [0x7fe086b45705]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 24 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143dee) [0x7fe086b43dee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 152 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e07) [0x7fe086b43e07]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 32 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 262288 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 262288 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 262288 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 262288 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 32 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 272 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 272 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 272 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 272 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 16 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_channel_set_statistics_handler+0x178) [0x7fe086b43be8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x110fc0) [0x7fe086b10fc0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 24 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xa62e6) [0x7fe086aa62e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe2929) [0x7fe086ae2929]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_notify_connection_finished+0x98) [0x7fe086adfc48]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_meta_request_send_request_finish_default+0xab) [0x7fe086ae4deb]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ALLOC 24 bytes, stacktrace:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x90cf3) [0x7fe086a90cf3]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_ref_count_release+0x37) [0x7fe086ce1907]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_input_stream_release+0x29) [0x7fe086b52cb9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_http_message_release+0x58) [0x7fe086b39368]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - Stacks by bytes leaked:
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1049152 bytes in 4 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 12368 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 12368 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 12368 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 12368 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1696 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_init_base+0xa5) [0x7fe086b46d15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x64) [0x7fe086b55584]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1088 bytes in 4 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 848 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x7e) [0x7fe086b5559e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 376 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a63d) [0x7fe086b4a63d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 272 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x189) [0x7fe086b4cb89]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 256 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc43) [0x7fe086b4bc43]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 256 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc86) [0x7fe086b4bc86]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 256 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa1f) [0x7fe086b4aa1f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 256 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bcc5) [0x7fe086b4bcc5]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 256 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa7a) [0x7fe086b4aa7a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 208 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154598) [0x7fe086b54598]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d2b) [0x7fe086b54d2b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 208 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15447d) [0x7fe086b5447d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1476a6) [0x7fe086b476a6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 160 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x4b) [0x7fe086b4ca4b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 152 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e07) [0x7fe086b43e07]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 144 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x26) [0x7fe086b55546]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 112 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_init_dynamic+0xc7) [0x7fe086ce0b67]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_init+0x7c) [0x7fe086ce258c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x1d2) [0x7fe086b556f2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 112 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 112 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 112 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 112 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 104 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_client_bootstrap_new+0x24) [0x7fe086b45db4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0xb7) [0x7fe086a87347]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 104 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a9e6) [0x7fe086b4a9e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 88 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14743f) [0x7fe086b4743f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 80 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_socket_connect+0x21e) [0x7fe086b574ee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x145705) [0x7fe086b45705]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 80 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x151) [0x7fe086aa6761]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 72 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c38c) [0x7fe086b4c38c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 64 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15d30c) [0x7fe086b5d30c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_TlsContext_tlsContextNew+0x27) [0x7fe086aa8dc7]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 48 bytes in 2 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d4f) [0x7fe086b54d4f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 40 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_linked_hash_table_put+0x2a) [0x7fe086cde19a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dee5c) [0x7fe086cdee5c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c3c9) [0x7fe086b4c3c9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 33 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x1ec) [0x7fe086a862ec]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 32 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_auth_credentials_DelegateCredentialsProvider_delegateCredentialsProviderNew+0x39) [0x7fe086a88979]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 32 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 32 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 27 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x145) [0x7fe086b55a15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 27 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a690) [0x7fe086b4a690]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 27 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x164) [0x7fe086b55a34]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 26 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x91) [0x7fe086a86191]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 24 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143dee) [0x7fe086b43dee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 24 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xa62e6) [0x7fe086aa62e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe2929) [0x7fe086ae2929]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_notify_connection_finished+0x98) [0x7fe086adfc48]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_meta_request_send_request_finish_default+0xab) [0x7fe086ae4deb]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 24 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x90cf3) [0x7fe086a90cf3]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_ref_count_release+0x37) [0x7fe086ce1907]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_input_stream_release+0x29) [0x7fe086b52cb9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_http_message_release+0x58) [0x7fe086b39368]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 19 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0xcc) [0x7fe086a861cc]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 16 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe0759) [0x7fe086ae0759]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 16 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_channel_set_statistics_handler+0x178) [0x7fe086b43be8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x110fc0) [0x7fe086b10fc0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 16 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0x4f) [0x7fe086a872df]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 16 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x34) [0x7fe086a8b144]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 16 bytes in 1 allocations:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1477a2) [0x7fe086b477a2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - Stacks by number of leaks:
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 4 allocations leaking 1088 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 4 allocations leaking 1049152 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x101) [0x7fe086b4d1e1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 848 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x7e) [0x7fe086b5559e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 112 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_init_dynamic+0xc7) [0x7fe086ce0b67]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_init+0x7c) [0x7fe086ce258c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x1d2) [0x7fe086b556f2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 144 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x26) [0x7fe086b55546]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 208 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154598) [0x7fe086b54598]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d2b) [0x7fe086b54d2b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 208 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15447d) [0x7fe086b5447d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1476a6) [0x7fe086b476a6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 1696 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_init_base+0xa5) [0x7fe086b46d15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_new_default_with_options+0x64) [0x7fe086b55584]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x147616) [0x7fe086b47616]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 2 allocations leaking 48 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154d4f) [0x7fe086b54d4f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 112 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 16 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x34) [0x7fe086a8b144]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 88 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14743f) [0x7fe086b4743f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 256 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bcc5) [0x7fe086b4bcc5]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 32 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x32) [0x7fe086b4d502]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 160 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x4b) [0x7fe086b4ca4b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 32 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_memory_pool_init+0x44) [0x7fe086b4d124]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_message_pool_init+0x58) [0x7fe086b4d528]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e60) [0x7fe086b43e60]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 24 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xa62e6) [0x7fe086aa62e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe2929) [0x7fe086ae2929]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_notify_connection_finished+0x98) [0x7fe086adfc48]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_meta_request_send_request_finish_default+0xab) [0x7fe086ae4deb]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 12368 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 24 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143dee) [0x7fe086b43dee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 12368 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 256 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc43) [0x7fe086b4bc43]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 112 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a75e) [0x7fe086b4a75e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 12368 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 272 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_host_resolver_new_default+0x189) [0x7fe086b4cb89]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_HostResolver_hostResolverNew+0x4e) [0x7fe086a8da6e]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 16 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0xe0759) [0x7fe086ae0759]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 152 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x143e07) [0x7fe086b43e07]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 16 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0x4f) [0x7fe086a872df]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 27 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x145) [0x7fe086b55a15]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 104 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_launch+0x213) [0x7fe086ce7d03]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a9e6) [0x7fe086b4a9e6]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 64 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x15d30c) [0x7fe086b5d30c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_TlsContext_tlsContextNew+0x27) [0x7fe086aa8dc7]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 376 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a63d) [0x7fe086b4a63d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 12368 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dcfe4) [0x7fe086cdcfe4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_hash_table_init+0x5b) [0x7fe086cdd0ab]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0xa8) [0x7fe086cdefa8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a700) [0x7fe086b4a700]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 72 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c38c) [0x7fe086b4c38c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 256 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa1f) [0x7fe086b4aa1f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 104 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_client_bootstrap_new+0x24) [0x7fe086b45db4]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_ClientBootstrap_clientBootstrapNew+0xb7) [0x7fe086a87347]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 33 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x1ec) [0x7fe086a862ec]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 256 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14bc86) [0x7fe086b4bc86]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 16 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_array_list_ensure_capacity+0x4f) [0x7fe086cd606f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_priority_queue_push_ref+0x12b) [0x7fe086ce11fb]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_task_scheduler_schedule_future+0x6e) [0x7fe086ce295e]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154826) [0x7fe086b54826]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_channel_set_statistics_handler+0x178) [0x7fe086b43be8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x110fc0) [0x7fe086b10fc0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 256 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14aa7a) [0x7fe086b4aa7a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 27 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_default_dns_resolve+0x164) [0x7fe086b55a34]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14b3ef) [0x7fe086b4b3ef]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 26 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0x91) [0x7fe086a86191]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 16 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x1477a2) [0x7fe086b477a2]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_event_loop_group_new+0x21) [0x7fe086b47901]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_io_EventLoopGroup_eventLoopGroupNew+0x76) [0x7fe086a8b186]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 80 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_socket_connect+0x21e) [0x7fe086b574ee]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x145705) [0x7fe086b45705]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e2416) [0x7fe086ce2416]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x154f6d) [0x7fe086b54f6d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 32 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_auth_credentials_DelegateCredentialsProvider_delegateCredentialsProviderNew+0x39) [0x7fe086a88979]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 27 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a690) [0x7fe086b4a690]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 112 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a6d1) [0x7fe086b4a6d1]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 24 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_thread_current_at_exit+0x40) [0x7fe086ce83e0]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_acquire_thread_env+0x16c) [0x7fe086a8965c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x90cf3) [0x7fe086a90cf3]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_ref_count_release+0x37) [0x7fe086ce1907]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_input_stream_release+0x29) [0x7fe086b52cb9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_http_message_release+0x58) [0x7fe086b39368]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 40 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_linked_hash_table_put+0x2a) [0x7fe086cde19a]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2dee5c) [0x7fe086cdee5c]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14c3c9) [0x7fe086b4c3c9]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2e8213) [0x7fe086ce8213]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7fe0d2a6bac3]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x44) [0x7fe0d2afca04]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 80 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df681) [0x7fe086cdf681]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_calloc+0x4f) [0x7fe086cd590f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x151) [0x7fe086aa6761]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 112 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire_many+0x121) [0x7fe086cd5b11]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_cache_new_lru+0x53) [0x7fe086cdef53]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x14a72f) [0x7fe086b4a72f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_endpoint_new+0x8f) [0x7fe086ae328f]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_s3_client_make_meta_request+0x37b) [0x7fe086adef1b]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientMakeMetaRequest+0x7e8) [0x7fe086aa74c8]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - 1 allocations leaking 19 bytes:
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(+0x2df6c8) [0x7fe086cdf6c8]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_mem_acquire+0x18) [0x7fe086cd5838]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_string_new_from_array+0x1d) [0x7fe086ce197d]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_jni_new_string_from_jstring+0x3d) [0x7fe086a8a0dd]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(aws_build_signing_config+0xcc) [0x7fe086a861cc]
+/tmp/AWSCRT_8076804710154954768libaws-crt-jni.so(Java_software_amazon_awssdk_crt_s3_S3Client_s3ClientNew+0x186) [0x7fe086aa6796]
+[0x7fe0b47df9b0]
+
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ################################################################################
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - #  END MEMTRACE DUMP                                                           #
+[TRACE] [2024-07-21T06:59:39Z] [00007fe0d2f74c40] [memtrace] - ################################################################################
